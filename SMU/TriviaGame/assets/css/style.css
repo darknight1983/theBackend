@@ -1,0 +1,58 @@
+
+
+body {
+  font-family: 'VT323', monospace;
+}
+
+.game-content {
+  width: 960px;
+  height: 600px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+
+.game-title {
+  color: rgba(225, 88, 64, 1.0);
+  text-align: center;
+  font-size: 4em;
+  padding: 10px;
+  background-color: rgba(225, 221, 233, 1.0);
+}
+
+.start-button {
+  color: rgba(225, 88, 64, 1.0);
+  background-color: rgba(225, 221, 233, 1.0);
+  font-size: 2em;
+  width: 15%;
+  padding: 10px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#triviaContainer {
+  margin-top: 40px;
+}
+
+#triviaQues {
+  font-size: 2em;
+  border: 3px dotted rgba(102, 102, 102, 1.0);
+  border-radius: 20px;
+  padding: 15px;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.answerChoice {
+  border: 2px solid rgba(225, 88, 64, 1.0);
+  border-radius: 20px;
+  font-size: 1.5em;
+  margin: 15px auto;
+  padding: 10px 5px;
+  width: 50%;
+}
+
+.answerChoice:hover {
+  background-color: rgba(225, 88, 64, 1.0);
+  border: 2px solid #FFF;
+}
